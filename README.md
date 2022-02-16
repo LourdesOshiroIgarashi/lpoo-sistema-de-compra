@@ -54,6 +54,7 @@ este método terá que validar o CPF
 b) @Override
 public void solicitarNovo()
 este método solicita um novo CPF, até que o valor do CPF informado esteja correto
+
 (d) Classe Funcionario
 • Estende a classe Pessoa
 • 1 construtor com os parâmetros de pessoa, o salario e a funcao
@@ -61,6 +62,7 @@ este método solicita um novo CPF, até que o valor do CPF informado esteja corr
 a) @Override
 public String toString()
 retorna uma String com o nome, o cpf, o celular, a função e o salário do funcionário.
+
 (e) Classe Cliente
 • Estende a classe Pessoa
 • 1 construtor com os parâmetros de pessoa
@@ -68,6 +70,7 @@ retorna uma String com o nome, o cpf, o celular, a função e o salário do func
 a) @Override
 public String toString()
 retorna uma String com o nome, o cpf e o celular do cliente
+
 (f) Classe Fornecedor
 • Implementa a classe Verificavel
 • Atributos privados:
@@ -85,6 +88,7 @@ este método terá que validar o CNPJ
 b) @Override
 public void solicitarNovo()
 este método solicita um novo CNPJ, até que o valor do CNPJ informado esteja correto
+
 (g) Classe Produto
 • Atributos privados:
 String nomeProduto; Float valor; Fornecedor empresa
@@ -94,6 +98,7 @@ a) int compareTo(Object obj)
 compara os produtos pelo valor
 b) public String toString()
 retorna uma String com o nomeProduto e o valor
+
 (h) Classe Compra
 • Atributos privados:
 Funcionario funcionario; Cliente cliente; List Produto produto
@@ -107,6 +112,7 @@ Em seguida, deverá listar todos os produtos comprados pelo cliente ordenado do 
 para o maior valor do produto
 Ao final mostrar o valor total da compra.
 O valor do Produto impresso deve possuir 2 casas decimais.
+
 (i) Classe Main
 • Possui o método main
 • Inserir pelo menos 6 Enderecos, 2 Funcionarios, 2 Clientes, 2 Fornecedores, 10 Produtos
@@ -114,6 +120,7 @@ O valor do Produto impresso deve possuir 2 casas decimais.
 do Funcionario.
 • Innserir pelo menos 2 compras com no mínimo 5 produtos.
 • Listar os Cliente, os Fornecedore e as Compras conforme citado acima.
+
 (j) Informações adicionais
 • O código deve ser comentado conforme necessidade de explicar certas funções e funcionalidades;
 • O projeto deve utilizar obrigatoriamente os conceitos de Herança, Abstração, Polimorfismo, Encapsulamento e Interfaces;
