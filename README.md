@@ -5,7 +5,7 @@ Este trabalho tem como objetivo desenvolver um porjeto em Java no Eclipse que si
 
 O sistema é composto pelas classes especificadas abaixo e deverá permitir a inclusão de Endereco, Fornecedor, Produto, Cliente, Funcionario e Compra; e de novas informações, além de alterar e ler as informações dadas, utilizando os métodos get e set.
 
-##Saída do Projeto:
+## Saída do Projeto:
 • 1- Listar Clientes
 o nome, o cpf e o cleular.
 • 2- Listar Funcionários
@@ -14,7 +14,7 @@ o nome, o cpf, o cleular, a função e o salário.
 o nome do Cliente que fez a compra, do funcionário que vendeu, listar os produtos comprados
 em ordem por valor e o total da compra.
 
-##Descrição das Classes e Interfaces
+## Descrição das Classes e Interfaces
 (a) Interface Verificável
 • Método:
 a) boolean validar(String codigo);
