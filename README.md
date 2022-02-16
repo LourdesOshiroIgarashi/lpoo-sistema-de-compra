@@ -1,7 +1,7 @@
-# lpoo-sistema-de-compra
-Trabalho final, da disciplina de Linguagem de Programação Orientada a Objetos (LPOO), da Universidade Federal de Mato Grosso do Sul (UFMS), de um sistema de compras de frutas.
+# Sistema de compras 
+Trabalho final, da disciplina de Linguagem de Programação Orientada a Objetos (LPOO), da Universidade Federal de Mato Grosso do Sul (UFMS), de um sistema de compras.
 
-Este trabalho tem como objetivo desenvolver um porjeto em Java no Eclipse que simule um Sistema de Compras. O trabalho foi realizado em dupla, pelos alunos Everton de Oliveira e Lourdes Oshiro Igarashi.
+Este trabalho tem como objetivo desenvolver um projeto em Java no Eclipse que simule um Sistema de Compras. O trabalho foi realizado em dupla, pelos alunos Everton de Oliveira e Lourdes Oshiro Igarashi.
 
 O sistema é composto pelas classes especificadas abaixo e deverá permitir a inclusão de Endereco, Fornecedor, Produto, Cliente, Funcionario e Compra; e de novas informações, além de alterar e ler as informações dadas, utilizando os métodos get e set.
 
@@ -20,10 +20,12 @@ em ordem por valor e o total da compra.
 a) boolean validar(String codigo);
 Este método deverá validar o CPF para Pessoa e o CNPJ para Fornecedor, sempre que
 esses valores forem cadastradso ou alterados no nestas classes. Se o valor retronado for
-false, então deverá chamar o método que solicita um novo valor a ser validado. b) void
+false, então deverá chamar o método que solicita um novo valor a ser validado. 
+b) void
 solicitarNovo():
 Este método deverá solicitar um novo CPF para Pessoa ou um novo CNPJ para fornecedor, sempre que o valor validado retorna false. Quando o novo valor for fornecido,
 deverá chamar o método validar, para que seja verificado.
+
 (b) Classe Endereço
 • Atributos:
 String rua; int numero; String bairro; String cidade; String cep;
@@ -34,6 +36,7 @@ b) Para endereço sem cep
 public Endereco(String rua, int numero, String bairro, String cidade)
 • Métodos:
 a) gets e sets
+
 (c) Classe Pessoa (Abstrata)
 • Implementa a classe Verificavel
 • Atributos privados:
